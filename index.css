@@ -58,8 +58,12 @@ body {
 
 .con span {
   color: hsl(204, 43%, 93%);
+  font-size: 16px;
 }
+.per{
+  font-size: 30px;
 
+}
 .con p {
   margin-top: 20px;
   margin-left: 15px;
@@ -70,8 +74,8 @@ body {
   margin-left: 15px;
 }
 
-.con input {
-  width: 180px;
+.btn {
+  width: 300px;
   height: 55px;
   margin-top: 35px;
   margin-left: 15px;
@@ -79,7 +83,7 @@ body {
   color: white;
   border: 0;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -94,11 +98,45 @@ body {
 }
 
 .why h5 {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   font-size: 25px;
   margin-left: 25px;
 }
 
 .why p {
   margin-left: 25px;
+  line-height: 1.4rem;
+  /*  */
+  /* margin-top: 1px; */
+}
+
+
+.attribution {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .fresh, .con, .why {
+    padding: 30px;
+    width: 100%;
+  }
+  .fresh h2, .fresh h3, .fresh p, .con h3, .con p, .why h5, .why p {
+    margin-left: -15px;
+  }
+
+
+.second-par {
+  flex-direction: column;
+}
+
+.why p {
+  margin-top: 0.5rem;
+}
+
+.attribution {
+  font-size: 16px;
+}
+
 }
