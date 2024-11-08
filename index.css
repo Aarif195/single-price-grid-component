@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
 * {
@@ -6,137 +8,149 @@
 }
 
 body {
-  font-size: 20px;
-  font-family: "Karla", sans-serif;
-  font-optical-sizing: auto;
-  background-color: hsl(204, 43%, 93%);
-
+  width: 720px;
+  height: 1115px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid red; */
 }
 
-.fresh {
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
-  padding: 20px;
-  width: 664px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-
-}
-
-.fresh h2 {
-  margin-left: 15px;
-  color: hsl(179, 62%, 43%);
-}
-
-.fresh h3 {
-  color: hsl(71, 73%, 54%);
-  margin-left: 15px;
-  margin-top: 30px;
-}
-
-.fresh p {
-  margin-left: 15px;
-  margin-top: 20px;
-  color: hsl(204, 43%, 93%);
-  color: hsl(218, 22%, 67%);
-}
-
-.second-par {
+header {
+  background-image: url("image/torshov-image\ \(1\).png");
+  width: 720px;
+  height: 343px;
   display: flex;
-  justify-content: center;
-}
-
-.con {
-  width: 352px;
-  height: 300px;
-  background-color: hsl(179, 62%, 43%);
-  color: white;
-  border-bottom-left-radius: 10px;
-}
-
-.con span {
-  color: hsl(204, 43%, 93%);
-  font-size: 16px;
-}
-.per{
-  font-size: 30px;
-
-}
-.con p {
-  margin-top: 20px;
-  margin-left: 15px;
-}
-
-.con h3 {
-  margin-top: 30px;
-  margin-left: 15px;
-}
-
-.btn {
-  width: 300px;
-  height: 55px;
-  margin-top: 35px;
-  margin-left: 15px;
-  background-color: hsl(71, 73%, 54%);
-  color: white;
-  border: 0;
-  border-radius: 5px;
-  font-size: 25px;
-  text-align: center;
-}
-
-.why {
-  width: 352px;
-  background-color: hsl(218, 22%, 67%);
-  padding-top: 30px;
-
-  color: white;
-  border-bottom-right-radius: 10px;
-
-}
-
-.why h5 {
-  margin-bottom: 35px;
-  font-size: 25px;
-  margin-left: 25px;
-}
-
-.why p {
-  margin-left: 25px;
-  line-height: 1.4rem;
-  /*  */
-  /* margin-top: 1px; */
-}
-
-
-.attribution {
-  text-align: center;
-  margin-top: 20px;
-}
-
-
-@media (max-width: 768px) {
-  .fresh, .con, .why {
-    padding: 30px;
-    width: 100%;
-  }
-  .fresh h2, .fresh h3, .fresh p, .con h3, .con p, .why h5, .why p {
-    margin-left: -15px;
-  }
-
-
-.second-par {
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.why p {
-  margin-top: 0.5rem;
+header h2 {
+  width: 225px;
+  height: 42px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  background-color: #1D3557;
+
 }
 
-.attribution {
+header p {
+  width: 412px;
+  height: 52px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18.72px;
+  text-align: center;
+  background-color: #457B9D;
+
+}
+
+main {
+  background-color: #F1FAEE;
+  height: 378px;
+  /* border: 1px solid red; */
+  width: 720px;
+}
+
+main h3 {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #1D3557;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section,
+p,
+h6 {
+  margin-top: 15px;
+}
+
+.activities {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.activities img {
+  margin-top: 15px;
+}
+
+.activities h6 {
+  width: 183px;
+  height: 32px;
+  text-align: center;
+  font-weight: 700;
   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1D3557;
+
 }
 
+.activities p {
+  /* border: 1px solid yellow; */
+  width: 183px;
+  height: 55pxpx;
+  color: #1D3557;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  width: 720px;
+  height: 394px;
+  /* border: 1px solid brown; */
+}
+
+section {
+  display: flex;
+  margin: 50px auto;
+  width: 400px;
+  height: 294px;
+  background-color: #A8DADC;
+  border-radius: 10px;
+  border-bottom: 5px solid black;
+}
+
+section img {
+  width: 180px;
+  height: 248px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.per-2 {
+  margin-top: 50px;
+}
+
+.per-2 h2 {
+  width: 207px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #1D3557;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.per-2 h5 {
+  width: 189px;
+  height: 18px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #1D3557;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.per-2 p {
+  width: 189px;
+  height: 71px;
+  font-style: italic;
 }

@@ -1,6 +1,6 @@
-# Frontend Mentor - Single price grid component
+# Frontend Mentor - Profile card component
 
-![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -12,10 +12,9 @@ Thanks for checking out this front-end coding challenge.
 
 ## The challenge
 
-Your users should be able to:
+Your challenge is to build out this profile card component and get it looking as close to the design as possible.
 
-- View the optimal layout for the component depending on their device's screen size
-- See a hover state on desktop for the Sign Up call-to-action
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
